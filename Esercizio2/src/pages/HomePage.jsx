@@ -1,8 +1,12 @@
+import Title from "../Components/Title"
+
+
 function HomePage(){
+    const parametro={message:'Questo è il titolo della pagina',message2:'questa è una prova'}
     return (
         <>
-          <h1 className="titolo">Dio madonna</h1>
-        </>
+          <Title testo={parametro}/>
+          </>
       )
 
 }
